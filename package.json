@@ -1,0 +1,16 @@
+{
+  "name": "HTML5_GifCanvas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ServerNode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "gifuct-js": "^2.1.2",
+    "nodemon": "^1.11.0"
+  }
+}

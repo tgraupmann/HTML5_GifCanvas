@@ -1,0 +1,25 @@
+<html>
+
+<head>
+  <title>HTML5 - Draw GIF on Canvas</title>
+  <script src="js/gifuct-js.js"></script>
+</head>
+
+<body style="background: black; color: white;">
+  <div
+    style="display: flex; flex-direction: row; width: 800; background: rgb(43, 43, 43); margin: 20px; padding: 20px; gap: 20px">
+    <div style="display: flex; flex-direction: row; background: #484848dd; padding: 20px; gap: 20px">
+      <span>Image GIF</span>
+      <img id="imgGif" width="256" height="256" src="images/Gradient1.gif" />
+    </div>
+    <div style="display: flex; flex-direction: row; background: #484848dd; padding: 20px; gap: 20px">
+      <span>Canvas GIF</span>
+      <canvas id="canvasImage" style="display: none"></canvas>
+      <canvas id="canvasScaled" style="background: black; width: 256px; height: 256px"></canvas>
+    </div>
+  </div>
+</body>
+
+<script src="js/script.js"></script>
+
+</html>
